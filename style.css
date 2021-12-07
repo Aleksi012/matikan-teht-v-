@@ -29,3 +29,7 @@ button {
     text-align: center;
     font-size: 60px !important;
 }
+
+.vastaus {
+    height: 120px;
+}
