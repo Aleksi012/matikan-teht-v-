@@ -1,0 +1,40 @@
+#button1 {
+    background-color: rgb(85, 78, 189);
+    width: 500px;
+    border: solid black 5px;
+}
+
+
+#lasku1 {
+    width: 130px;
+    height: 75px;
+}
+
+#awd {
+    background-color: rgb(85, 78, 189);
+    padding: 10px;
+    border: solid black 5px;
+    height: 100px;
+    width: 500px;
+}
+
+#otsikko {
+    color: black;
+}
+
+.laskut {
+    font-size: 60px;
+}
+
+input[type=number] {
+    font-size: 100px;
+}
+
+#otsikot {
+    font-size: 60px;
+    text-decoration: underline
+}
+
+#otsikot2 {
+    font-size: 60px;
+}

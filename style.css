@@ -1,0 +1,31 @@
+h1 {
+    font-size: 60px !important;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: red;
+    text-align: center;
+}
+
+.col1 {
+    background-color: red;
+}
+
+#answer {
+   
+    
+    text-align: center;
+}
+
+input[type='number']{
+    width: 150px;
+    height: 112px;
+    font-size: 60px;
+}
+
+button {
+    background-color: red;
+    height: 102px;
+    width: 306px;
+    text-align: center;
+    font-size: 60px !important;
+}
