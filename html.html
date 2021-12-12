@@ -14,8 +14,8 @@
 </head>
 
 <body class="bg-primary">
-  <h1 id="otsikko">Kertolasku harjoitus</h1>
-  <i class="fas fa-users"></i>
+  
+  
 
 
   <script src="javascript.js" defer></script>
@@ -24,7 +24,34 @@
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/ad76aafca1.js" crossorigin="anonymous"></script>
 
-
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Etusivu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tietoja</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pelit
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Matikkapeli 1</a></li>
+              <li><a class="dropdown-item" href="#">Matikkapeli 2</a></li>
+              <li><a class="dropdown-item" href="#">tietovisa 1</a></li>
+              <li><a class="dropdown-item" href="#">tietovisa 2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <div>
 
@@ -40,7 +67,7 @@
         <h1 class="vastaus"><span id="vastaus1"></span></h1>
       </div>
       <div class="col">
-        <h1 class="h1">Oikein</h1>
+        <h1 class="h1"><span id="oikeavastaus1"></span></h1>
       </div>
     </div>
   </div>
@@ -57,7 +84,7 @@
         <h1 class="vastaus"><span id="vastaus2"></span></h1>
       </div>
       <div class="col">
-        <h1 class="h1">Oikein</h1>
+        <h1 class="h1"><span id="oikeavastaus2"></span></h1>
       </div>
     </div>
   </div>
@@ -74,7 +101,7 @@
         <h1 class="vastaus"><span id="vastaus3"></span></h1>
       </div>
       <div class="col">
-        <h1 class="h1">Oikein</h1>
+        <h1 class="h1"><span id="oikeavastaus3"></span></h1>
       </div>
     </div>
   </div>
@@ -91,7 +118,7 @@
         <h1 class="vastaus"><span id="vastaus4"></span></h1>
       </div>
       <div class="col">
-        <h1 class="h1">Oikein</h1>
+        <h1 class="h1"><span id="oikeavastaus4"></span></h1>
       </div>
     </div>
   </div>
@@ -108,7 +135,7 @@
         <h1 class="vastaus"><span id="vastaus5"></span></h1>
       </div>
       <div class="col">
-        <h1 class="h1">Oikein</h1>
+        <h1 class="h1"><span id="oikeavastaus5"></span></h1>
       </div>
     </div>
   </div>
@@ -118,28 +145,11 @@
       <div class="col">
         <button onclick="myFunction()" id="button">Tarkista</button>
       </div>
-      <div class="col" id="answer">
-        <input type="number" class="input">
-      </div>
       <div class="col">
-        <h1 class="h1">Oikein</h1>
-      </div>
-      <div class="col">
-        <h1 class="h1">Oikein</h1>
+        <h1 id="lopputeksti">Harjoitus tekee mestarin</h1>
       </div>
     </div>
   </div>
-
-
 </div>
-
-
-
-
-
-
-
-
 </body>
-
 </html>

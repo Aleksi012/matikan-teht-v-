@@ -2,7 +2,7 @@ h1 {
     font-size: 60px !important;
     padding: 10px;
     padding-bottom: 30px;
-    background-color: red;
+    background-color: rgb(107, 107, 231);
     text-align: center;
 }
 
@@ -20,16 +20,55 @@ input[type='number']{
     width: 150px;
     height: 112px;
     font-size: 60px;
+    border-radius: 50px;
+    text-align: center;
+    border: solid blue 10px;
 }
 
 button {
-    background-color: red;
+    background-color: blue;
     height: 102px;
     width: 306px;
     text-align: center;
     font-size: 60px !important;
+    border: solid blue 10px;
+    border-radius: 50px !important;
 }
 
 .vastaus {
     height: 120px;
 }
+
+.h1 {
+    height: 120px;
+}
+
+#lopputeksti {
+    background-color: transparent;
+    text-align: left;
+    font-size: 55px !important;
+    text-decoration: underline;
+
+}
+
+#otsikko {
+    background-color: blue;
+    font-size: 42px !important;
+    text-decoration: underline;
+}
+
+.laskut {
+    border: solid blue 10px;
+    border-radius: 50px;
+}
+
+.vastaus {
+    border: solid blue 10px;
+    border-radius: 50px;
+}
+
+.h1 {
+    border: solid blue 10px;
+    border-radius: 50px;
+}
+
